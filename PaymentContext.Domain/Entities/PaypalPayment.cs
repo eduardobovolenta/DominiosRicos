@@ -11,7 +11,7 @@ namespace PaymentContext.Domain.Entities
             DateTime expireDate, 
             decimal total, 
             decimal totalPaid, 
-            string address, 
+            Address address, 
             Document document, 
             string owner, 
             Email email) : base(paidDate, expireDate, total, totalPaid, address, document, owner, email)
