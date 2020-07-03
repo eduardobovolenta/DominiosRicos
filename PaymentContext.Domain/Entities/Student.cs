@@ -43,7 +43,7 @@ namespace PaymentContext.Domain.Entities
         
             // Alternativa
             if (hasSubscriptionActive)
-                AddNotification("Student.Subscriptions", "Você já tem uma assinatura ativa")
+                AddNotification("Student.Subscriptions", "Você já tem uma assinatura ativa");
         
         }
     }
